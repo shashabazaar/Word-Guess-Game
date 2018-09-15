@@ -2,14 +2,11 @@
 <html lang="en-us">
 <head>
 
-  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Word Guess Game</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link rel="stylesheet"> 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>`<script src=“https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js“></script>
   
 </head>
 <body>
@@ -33,7 +30,7 @@
 //Display the following on the page:
 
 //Press any key to get started!
-<h1 class="purple">Press any key to get started!></h1>
+<div class="purple">Press any key to get started!></div>
       <div class="gold"></div>
 				<h1>Wins:</h1>
         <h1 class="wins"></h1> 
@@ -60,17 +57,23 @@
 				<h1 class="guesses"></h1>
 
 //Letters Already Guessed: (Letters the user has guessed, displayed like L Z Y H).
-<div class="pink"></div>
+<div class="pink">
 				<h1>Letters already guessed: </h1>
 				<h1 class="letters-guessed"></h1>
+</div>
 
 //After the user wins/loses the game should automatically choose another word and make the user play it.
 
+			<h1 class="red"></h1>
+			//Answer 
+			<div class="answer"></div>
+				<h1 class="response"></h1>
+				<div class="character"></div>
+				<h1 class="anykey"></h1>
 		//Hangman 
 		<div class="hangman"></div>
-	// Custom JS 
+	//Custom JS 
   <script src="assets/javascript/game.js"></script>
-
-
+  </script>
 </body>
 </html>
