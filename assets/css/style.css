@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  position: fixed;
+  color: #fff;
+  background-image: url(/Users/shafiqahsharif/Desktop/Bootcamp/hw/Word-Guess-Game/assets/images/TRAYVON-MARTIN-MURAL.jpg);
+
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: sans-serif 
+}
+
+header {
+  width: 100%;
+  font-size: 80px;
+  color: yellow;
+  z-index: 1;
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+}
+
+div > * {
+  vertical-align:middle;
+}
+
+.wrapper {
+  margin-top: 40px;
+position: relative;
+  text-align: center;
+  font-size: 28px;
+  overflow : auto;
+  height: 100%;
+}
+
+.hangman {
+  position: relative;
+  display: block;
+  width: 49%;
+  margin: 0 auto;
+  float: right;
+}
+
+.hangman > img {
+  position: absolute;
+  max-height: 400px;
+  top: 0;
+  left: 0;
+}
+
+.info {
+  position: relative;
+  display: block;
+  width: 49%;
+line-height: 2em;
+  float: left;
+}
+
+.answer {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.pink {
+  color:pink;
+}
+
+.aquamarine {
+  color: aquamarine;
+}
+
+.orange {
+  color: orange;
+}
+
+.moccasin {
+  color: moccasin;
+}
+
+.maroon {
+  color: maroon;
+}
+
+.red {
+  color: red;
+}
+
+.blue > h1, .blue > h1 {
+  display: block;
+}
+
+.media-input {
+  margin-bottom: 5vh;
+}
+
+.media-input > * {
+  display: inline;
+}
+
+button {
+  background: gold;
+  border: 2px solid purple;
+  border-radius: 5%;
+  padding: 5px;
+  font-size: 24px;
+  font-family: "san-serif";
+}
+
+.letters {
+  margin: 0 20px;
+  font-size: 36px;
+}
+
+.guessLetter {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 780px) and (orientation: portrait) {
+  header {
+      font-size: 50px;
+  }
+  .wrapper {
+      margin-top: 20px;
+      font-size: 22px;
+  }
+  .hangman {
+      margin: 0;
+  }
+  .hangman > img, .character > img {
+      max-height: 200px;
+  }
+  .info {
+      line-height: 1.5em;
+  }
+  .moveRight {
+      right: -20vw;
+      z-index: 1;
+  }
+}
