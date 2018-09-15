@@ -23,8 +23,8 @@ body {
 
 header {
   width: 100%;
-  font-size: 80px;
-  color: yellow;
+  font-size: 70px;
+  color: black;
   z-index: 1;
   text-align: center;
 }
@@ -39,7 +39,7 @@ div > * {
 
 .wrapper {
   margin-top: 40px;
-position: relative;
+  position: relative;
   text-align: center;
   font-size: 28px;
   overflow : auto;

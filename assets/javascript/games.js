@@ -23,7 +23,7 @@ window.onload = function() {
   
   // Show hangman
 	for (var i=0; i<=guesses; i++) {
-		document.querySelector(".hangman").innerHTML += '<img class="guess' + i + '" src="assets/images/hangman' + i + '.png">';
+		document.querySelector(".hangman").innerHTML += '<img class="guess' + i + '" src="/assets/images/emmittamir.jpg">';
 		if (i != guesses) {
 			document.querySelector(".guess" + i).style.visibility = 'hidden';
 		}
