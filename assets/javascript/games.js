@@ -8,7 +8,7 @@ window.onload = function() {
 	var wins;
 	var alphabet = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 	var count = 0;
-  var toHide = [".purple",".gold",".wins",".brown",".positions",".purple",".guesses",".pink",".letters-guessed"]; }
+  var toHide = [".red",".gold",".wins",".brown",".positions",".blue",".guesses",".pink",".letters-guessed"]; }
   
   // Set inital wins
 	wins = 0;
