@@ -1,6 +1,7 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-us">
 <head>
+    <meta charset="UTF-8">
 	<title>Hangman</title>
 	<!-- Reset CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
@@ -8,11 +9,9 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<!-- Media Queries -->
   <meta name="viewport" content="width=device-width, user-scalable=no" />
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-  
-</head>
+
+
 <body>
 
   <script type="text/javascript"></script>
@@ -32,9 +31,9 @@
 
 <!-- Display the following on the page: -->
 
-<div class="purple">Press any key to get started</div>
+<div class="red">Press any key to get started</div>
       <div class="gold"></div>
-				<h1>Wins:</h1>
+				<h1>Wins: </h1>
         <h1 class="wins"></h1> 
 </div>
     
@@ -47,7 +46,7 @@ If the word is madonna, display it like this when the game starts: _ _ _ _ _ _ _
         <h1 class="positions"></h1>
 </div>        
 <!-- As the user guesses the correct letters, reveal them: m a d o _ _ a. -->
-<h1 class="red">
+          <h1 class="blue">
 
       <!-- Answer --> 
 			<div class="answer"></div>
@@ -57,7 +56,7 @@ If the word is madonna, display it like this when the game starts: _ _ _ _ _ _ _
 </h1>
 <!-- Number of Guesses Remaining: (# of guesses remaining for the user). -->
 
-<div class="purple">
+<div class="orange">
 				<h1>Number of guesses remaining: </h1>
         <h1 class="guesses"></h1>
 </div>        
@@ -70,7 +69,7 @@ If the word is madonna, display it like this when the game starts: _ _ _ _ _ _ _
 
 <!-- After the user wins/loses the game should automatically choose another word and make the user play it.-->
 
-			<h1 class="red">
+			<h1 class="purple">
 			<!-- Answer --> 
 			<div class="answer"></div>
 				<h1 class="response"></h1>

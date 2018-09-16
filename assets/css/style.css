@@ -18,7 +18,7 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  font-family: sans-serif 
+  font-family: Neue Arial, Helvetica, sans-serif; 
 }
 
 header {
@@ -75,31 +75,31 @@ line-height: 2em;
   right: 0;
 }
 
-.pink {
-  color:pink;
+.red {
+  color: red;
 }
 
-.aquamarine {
-  color: aquamarine;
+.gold {
+  color: gold;
+}
+
+.brown {
+  color:brown;
+}
+
+.blue {
+  color: blue;
 }
 
 .orange {
   color: orange;
 }
 
-.moccasin {
-  color: moccasin;
+.pink {
+  color: pink;
 }
 
-.maroon {
-  color: maroon;
-}
-
-.red {
-  color: red;
-}
-
-.blue > h1, .blue > h1 {
+.purple > h1, .purple> h1 {
   display: block;
 }
 

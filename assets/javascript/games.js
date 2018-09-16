@@ -188,7 +188,7 @@ function checkWin() {
     }
     
     // Show answer
-		document.querySelector(".response").innerHTML = letter + "orrect! Its " + words[num] + "!";
+		document.querySelector(".response").innerHTML = letter + "Correct! Its " + words[num] + "!";
 		document.querySelector(".character").innerHTML = '<img src="assets/images/' + words[num] + '.png">';
 
     // Position Trayvon properly
