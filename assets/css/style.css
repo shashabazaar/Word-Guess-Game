@@ -18,11 +18,12 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  font-family: Neue Arial, Helvetica, sans-serif; 
+  font-family: 'Bungee Inline', cursive;
 }
 
 header {
   width: 100%;
+  font-family: 'Bungee Inline', cursive;
   font-size: 70px;
   color: black;
   z-index: 1;
