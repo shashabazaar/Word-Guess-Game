@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -10,7 +11,7 @@ body {
 
 body {
   position: fixed;
-  color: #fff;
+  color: black;
   background-image: url(https://s-i.huffpost.com/gen/1293448/images/n-TRAYVON-MARTIN-MURAL-628x314.jpg);
 
   background-position: center;
@@ -30,8 +31,9 @@ header {
   text-align: center;
 }
 
-h1 {
+h1, h2 {
   display: inline-block;
+  padding:50px;
 }
 
 div > * {
@@ -47,108 +49,22 @@ div > * {
   height: 100%;
 }
 
-.hangman {
-  position: relative;
-  display: block;
-  width: 49%;
-  margin: 0 auto;
-  float: right;
+table{
+  margin-left:20px;
+  margin-right:20px;
+  border: solid black thin;
+  padding:50px;
 }
-
-.hangman > img {
-  position: absolute;
-  max-height: 400px;
-  top: 0;
-  left: 0;
+td{
+  border:thick solid red;
+  padding:20px;
 }
-
-.info {
-  position: relative;
-  display: block;
-  width: 49%;
-line-height: 2em;
+form{
+  margin-top: 20px;
+}
+ul {
+  
   float: left;
-}
-
-.answer {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.red {
-  color: red;
-}
-
-.gold {
-  color: gold;
-}
-
-.brown {
-  color:brown;
-}
-
-.blue {
-  color: blue;
-}
-
-.orange {
-  color: orange;
-}
-
-.pink {
-  color: pink;
-}
-
-.purple > h1, .purple> h1 {
-  display: block;
-}
-
-.media-input {
-  margin-bottom: 5vh;
-}
-
-.media-input > * {
-  display: inline;
-}
-
-button {
-  background: gold;
-  border: 2px solid purple;
-  border-radius: 5%;
-  padding: 5px;
-  font-size: 24px;
-  font-family: "san-serif";
-}
-
-.letters {
-  margin: 0 20px;
-  font-size: 36px;
-}
-
-.guessLetter {
-  margin-left: 40px;
-}
-
-@media screen and (max-width: 780px) and (orientation: portrait) {
-  header {
-      font-size: 50px;
-  }
-  .wrapper {
-      margin-top: 20px;
-      font-size: 22px;
-  }
-  .hangman {
-      margin: 0;
-  }
-  .hangman > img, .character > img {
-      max-height: 200px;
-  }
-  .info {
-      line-height: 1.5em;
-  }
-  .moveRight {
-      right: -20vw;
-      z-index: 1;
-  }
+  padding:200px;
+  font-size: 45px;
 }
