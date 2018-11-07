@@ -29,7 +29,7 @@
   var audio = new Audio();
 
   function newGame() {
-    wordInt = Math.floor((Math.random() * words.length));
+    wordInt = Math.floor((Math.random() * words.length ));
     currentWord = words[wordsInt];
     console.log(currentWord);
   }
