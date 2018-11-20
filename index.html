@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+  <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+
   
   <link rel="stylesheet" type="text/css"
   href="assets/css/style.css">
@@ -25,29 +29,46 @@
       <div class="info">
        
 <div id= "board">
-  <table id="display">
+  <!-- <table id="display">
     
     
     <tr>
       <td id="0"></td> <td id="1"></td> <td id="2"></td> <td id="3"></td> <td id="4"></td> <td id="5"></td> <td id="6"></td> <td id="7"></td>
       <td id="8"></td> <td id="9"></td> <td id="10"></td> <td id="11"></td> <td id="12"></td> <td id="13"></td>
       <td id="14"></td> <td id="15"></td>
-      </tr>
-  </table>
-
+      </tr> -->
+    <span id="hiddenWord"></span>
+  <!-- </table> -->
+      <span id="loseCounter"></span>
+      <span id="winCounter"></span>
+      <span id="guessedLetters"></span>
+      <span id="isLetter"></span>
+      <span id="alreadyguessed"></span>
+      <span id="guessed"></span>
+      <span id="currentWord"></span>
+      <span id="rightLetter"></span>
+      <span id="winnerWinner"></span>
+      <span id="wordInt"></span>
   
   </div>
   <h2>Press 'Enter' to get started!</h2>
   <ul>
-  <li>Wins:</li>
-  <li>Number of Guesses Remaining:</li>
-  <li>Letters Already Guessed:</li>
+  <li>Wins:<span id="win"></span></li>
+  <li>Number of Guesses Remaining:<span id="lives"></span></li>
+  <li>Letters Already Guessed:<span id="letters-guessed"></span></li>
+  <li id="messages"></li>
   </ul>
+
   <form>
     <input type="text" id="guessInput">
     <input type="button" id="guess" value="Guess!">
   </form>
 </div>
+<div class="tidal-embed" data-type="p" data-id="7c451965-0257-46ba-8459-95f1cc26c00b"></div>
+<script src="https://embed.tidal.com/tidal-embed.js"></script>;
+
+
+
   <script type="text/javascript" src="assets/javascript/games.js"></script>
 
 <!--  Choose a theme for your game! In the demo, we picked an 80s theme: 80s questions, 80s sound and an 80s aesthetic. You can choose any subject for your theme, though, so be creative! -->
